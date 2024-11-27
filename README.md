@@ -29,7 +29,7 @@ Before you can run this project, ensure you have the following installed:
 - **Node.js** (version `16.x` or higher recommended)
 - **npm** or **yarn**
 - **Git**
-- Any necessary environment variables (see `.env` section below)
+- Any necessary environment variables (see `.env` file)
 
 ---
 
@@ -40,8 +40,8 @@ Before you can run this project, ensure you have the following installed:
 To clone the project repository to your local machine, run the following command:
 
 ```bash
-git clone <GitHub_repository_link>
-cd <project_directory_name>
+git clone <https://github.com/therealltre/rb_dashboard>
+cd <rb_dashboard>
  
 First, run the development server:
 ```
@@ -64,12 +64,12 @@ yarn dev
 
 Open [http://localhost:3030](http://localhost:3030) with your browser to see the result.
 
-### Run the Development Server Locally
+### Run the Deployment Server Locally
 
-Using npm:
+```bash
 npm run build
-
-Using yarn:
+# or
 yarn build
+```
 
 
