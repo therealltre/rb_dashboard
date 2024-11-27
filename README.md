@@ -48,11 +48,15 @@ First, run the development server:
 ### Install Dependencies
 
 Using npm:
+```bash
 npm install
-
+# or
+npm install --legagacy-peer-deps
+```
 Using yarn:
+```bash
 yarn install
-
+```
 ### Run the Development Server Locally
 
 ```bash
