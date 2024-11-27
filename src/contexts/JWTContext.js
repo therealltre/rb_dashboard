@@ -124,8 +124,6 @@ export function AuthProvider(props) {
     });
     const { access, user, refresh } = response.data.data;
 
-    console.log('user: ', user);
-
     setSession(access, refresh);
     localStorage.setItem('user', JSON.stringify(user));
 
