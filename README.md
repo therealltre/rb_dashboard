@@ -6,9 +6,8 @@ Login and dashboard pages design with data fetch.
 ---
 ## Objectives
 
-1. **Run the project locally**  
-2. **Deployment link**  
-3. **GitHub repository link**
+**[Deployment link](https://rb-dashboard-zeta.vercel.app)**  
+**[GitHub repository link](https://github.com/therealltre/rb_dashboard)**
 
 ## Features
 
