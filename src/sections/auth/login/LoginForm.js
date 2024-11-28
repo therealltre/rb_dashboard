@@ -54,7 +54,6 @@ export default function LoginForm() {
 
   const onSubmit = async (data) => {
     try {
-      console.log('Submitting data:', data);
       await login(data.email, data.password);
       console.log('Login successful');
       enqueueSnackbar('Login success!');
