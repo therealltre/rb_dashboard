@@ -83,9 +83,9 @@ export default function NavbarAccount({ isCollapse }) {
                 noWrap
                 sx={{
                   color: {
-                    xs: 'black', 
-                    sm: 'black', 
-                    md: 'white', 
+                    xs: 'white',
+                    sm: 'black',
+                    md: 'white',
                   },
                 }}
               >
