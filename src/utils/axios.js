@@ -16,7 +16,7 @@ axiosInt.interceptors.response.use(
   (response) => response,
   (error) =>
     Promise.reject(
-      (error.response && error.response.data) || 'There is an error!'
+      (error.response && error.response.data) || 'Server error!'
     )
 );
 
