@@ -48,7 +48,7 @@ export default function GeneralApp() {
                       <Typography variant="subtitle1"> A way to manage sales with care and precision </Typography>
                     </Grid>
                     <DatePicker
-                      label="Select Date"
+                      label="Date"
                       value={selectedDate}
                       onChange={(newDate) => setSelectedDate(newDate)}
                       renderInput={(params) => <TextField {...params} />}
